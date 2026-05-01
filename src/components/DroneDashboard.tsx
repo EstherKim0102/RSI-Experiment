@@ -15,7 +15,7 @@ interface DashboardProps {
 
 const DroneDashboard: React.FC<DashboardProps> = ({ 
   data, variant, mode = 'normal', studyVersion, hideCharts = false,
-  isOutdoor = false, trialNumber = 1
+  isOutdoor = false,
 }) => {
   const isSidebar = variant === 'layout';
   const isHighContrast = variant === 'contrast';
